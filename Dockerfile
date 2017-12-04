@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:latest
 
 RUN apk --no-cache update && \
     apk --no-cache add python py-pip py-setuptools ca-certificates groff less && \
